@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{16916ADA-288F-45FD-8660-B687742FBF52}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Amsterdam.My.MyApplication</StartupObject>
+    <RootNamespace>Amsterdam</RootNamespace>
+    <AssemblyName>Amsterdam</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Amsterdam.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Amsterdam.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ActivitiesSummaryInfo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ActivitiesSummaryInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="amsterdamDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>amsterdamDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="amsterdamDataSet.vb">
+      <DependentUpon>amsterdamDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="customersDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>customersDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomersDataSetForCount.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomersDataSetForCount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerSummaryInfo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerSummaryInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutHotel.Designer.vb">
+      <DependentUpon>frmAboutHotel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmAboutHotel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmConfirmationPage.Designer.vb">
+      <DependentUpon>frmConfirmationPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmConfirmationPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCurrencyConversion.Designer.vb">
+      <DependentUpon>frmCurrencyConversion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCurrencyConversion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerInformation.Designer.vb">
+      <DependentUpon>frmCustomerInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerInformationHelp.Designer.vb">
+      <DependentUpon>frmCustomerInformationHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomerInformationHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistMuseum.Designer.vb">
+      <DependentUpon>frmHistMuseum.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistMuseum.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistory.Designer.vb">
+      <DependentUpon>frmHistory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistoryHelp.Designer.vb">
+      <DependentUpon>frmHistoryHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistoryHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistRiding.Designer.vb">
+      <DependentUpon>frmHistRiding.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistRiding.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHistRoyalPalace.Designer.vb">
+      <DependentUpon>frmHistRoyalPalace.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHistRoyalPalace.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHostCitySubSystemHelp.Designer.vb">
+      <DependentUpon>frmHostCitySubSystemHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmHostCitySubSystemHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLanguage.Designer.vb">
+      <DependentUpon>frmLanguage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLanguage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLanguageHelp.Designer.vb">
+      <DependentUpon>frmLanguageHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLanguageHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLocalTravel.Designer.vb">
+      <DependentUpon>frmLocalTravel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLocalTravel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLocalTravelHelp.Designer.vb">
+      <DependentUpon>frmLocalTravelHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLocalTravelHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMakeReservation.Designer.vb">
+      <DependentUpon>frmMakeReservation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMakeReservation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMakeReservationHelp.Designer.vb">
+      <DependentUpon>frmMakeReservationHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMakeReservationHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservationSubSystemHelp.Designer.vb">
+      <DependentUpon>frmReservationSubSystemHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservationSubSystemHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservationSummary.Designer.vb">
+      <DependentUpon>frmReservationSummary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservationSummary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservationSummaryHelp.Designer.vb">
+      <DependentUpon>frmReservationSummaryHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservationSummaryHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectPackages.Designer.vb">
+      <DependentUpon>frmSelectPackages.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectPackages.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectPackagesHelp.Designer.vb">
+      <DependentUpon>frmSelectPackagesHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSelectPackagesHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTheatre1.Designer.vb">
+      <DependentUpon>frmTheatre1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTheatre1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTheatre2.Designer.vb">
+      <DependentUpon>frmTheatre2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTheatre2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTheatres.Designer.vb">
+      <DependentUpon>frmTheatres.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTheatres.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTheatresHelp.Designer.vb">
+      <DependentUpon>frmTheatresHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTheatresHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTravelMap.Designer.vb">
+      <DependentUpon>frmTravelMap.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTravelMap.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTravelMapHelp.Designer.vb">
+      <DependentUpon>frmTravelMapHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTravelMapHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVacationSubSystemHelp.Designer.vb">
+      <DependentUpon>frmVacationSubSystemHelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVacationSubSystemHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gridDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gridDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="HostCitySubSystem.Designer.vb">
+      <DependentUpon>HostCitySubSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HostCitySubSystem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="reservationActivitiesTableDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reservationActivitiesTableDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reservationActivitiesTableDataSet.vb">
+      <DependentUpon>reservationActivitiesTableDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reservationDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reservationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reservationDataSet.vb">
+      <DependentUpon>reservationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="reservationsDataSetForReservationSubSystem.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reservationsDataSetForReservationSubSystem.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationSubSystem.Designer.vb">
+      <DependentUpon>ReservationSubSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ReservationSubSystem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="reservationSummaryInfo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>reservationSummaryInfo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.vb" />
+    <Compile Include="VacationSubSystem.Designer.vb">
+      <DependentUpon>VacationSubSystem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VacationSubSystem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmAboutHotel.resx">
+      <DependentUpon>frmAboutHotel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConfirmationPage.resx">
+      <DependentUpon>frmConfirmationPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCurrencyConversion.resx">
+      <DependentUpon>frmCurrencyConversion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerInformation.resx">
+      <DependentUpon>frmCustomerInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerInformationHelp.resx">
+      <DependentUpon>frmCustomerInformationHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistMuseum.resx">
+      <DependentUpon>frmHistMuseum.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistory.resx">
+      <DependentUpon>frmHistory.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistoryHelp.resx">
+      <DependentUpon>frmHistoryHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistRiding.resx">
+      <DependentUpon>frmHistRiding.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHistRoyalPalace.resx">
+      <DependentUpon>frmHistRoyalPalace.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHostCitySubSystemHelp.resx">
+      <DependentUpon>frmHostCitySubSystemHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLanguage.resx">
+      <DependentUpon>frmLanguage.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLanguageHelp.resx">
+      <DependentUpon>frmLanguageHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocalTravel.resx">
+      <DependentUpon>frmLocalTravel.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLocalTravelHelp.resx">
+      <DependentUpon>frmLocalTravelHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMakeReservation.resx">
+      <DependentUpon>frmMakeReservation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMakeReservationHelp.resx">
+      <DependentUpon>frmMakeReservationHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservationSubSystemHelp.resx">
+      <DependentUpon>frmReservationSubSystemHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservationSummary.resx">
+      <DependentUpon>frmReservationSummary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservationSummaryHelp.resx">
+      <DependentUpon>frmReservationSummaryHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectPackages.resx">
+      <DependentUpon>frmSelectPackages.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectPackagesHelp.resx">
+      <DependentUpon>frmSelectPackagesHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTheatre1.resx">
+      <DependentUpon>frmTheatre1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTheatre2.resx">
+      <DependentUpon>frmTheatre2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTheatres.resx">
+      <DependentUpon>frmTheatres.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTheatresHelp.resx">
+      <DependentUpon>frmTheatresHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTravelMap.resx">
+      <DependentUpon>frmTravelMap.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTravelMapHelp.resx">
+      <DependentUpon>frmTravelMapHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVacationSubSystemHelp.resx">
+      <DependentUpon>frmVacationSubSystemHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HostCitySubSystem.resx">
+      <DependentUpon>HostCitySubSystem.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReservationSubSystem.resx">
+      <DependentUpon>ReservationSubSystem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VacationSubSystem.resx">
+      <DependentUpon>VacationSubSystem.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BaseFormLibrary\BaseFormLibrary.vbproj">
+      <Project>{D570E2D3-04F8-448E-A51C-F8F79402C216}</Project>
+      <Name>BaseFormLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\windmill.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hotel Map.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exterior.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\428px-Sights_in_Amsterdam2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amsterdam-Bridge-thumb-500x330.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rijksmuseum.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paleisopdedam-atlas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manege3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manage5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\manege4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nightwatch500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rijksmuseum2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\koninklijkpaleis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transportation.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\euro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\euro1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amsterdam_panorama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="amsterdamDataSet.xsc">
+      <DependentUpon>amsterdamDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="amsterdamDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>amsterdamDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="amsterdamDataSet.xss">
+      <DependentUpon>amsterdamDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Hotel Map Button.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activity14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ActivitiesSummaryInfo.xsc">
+      <DependentUpon>ActivitiesSummaryInfo.xsd</DependentUpon>
+    </None>
+    <None Include="ActivitiesSummaryInfo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ActivitiesSummaryInfo.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ActivitiesSummaryInfo.xss">
+      <DependentUpon>ActivitiesSummaryInfo.xsd</DependentUpon>
+    </None>
+    <None Include="customersDataSet.xsc">
+      <DependentUpon>customersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="customersDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>customersDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="customersDataSet.xss">
+      <DependentUpon>customersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomersDataSetForCount.xsc">
+      <DependentUpon>CustomersDataSetForCount.xsd</DependentUpon>
+    </None>
+    <None Include="CustomersDataSetForCount.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomersDataSetForCount.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomersDataSetForCount.xss">
+      <DependentUpon>CustomersDataSetForCount.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerSummaryInfo.xsc">
+      <DependentUpon>CustomerSummaryInfo.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerSummaryInfo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerSummaryInfo.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerSummaryInfo.xss">
+      <DependentUpon>CustomerSummaryInfo.xsd</DependentUpon>
+    </None>
+    <None Include="gridDataSet.xsc">
+      <DependentUpon>gridDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gridDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gridDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gridDataSet.xss">
+      <DependentUpon>gridDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="reservationActivitiesTableDataSet.xsc">
+      <DependentUpon>reservationActivitiesTableDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="reservationActivitiesTableDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reservationActivitiesTableDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reservationActivitiesTableDataSet.xss">
+      <DependentUpon>reservationActivitiesTableDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="reservationDataSet.xsc">
+      <DependentUpon>reservationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="reservationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reservationDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reservationDataSet.xss">
+      <DependentUpon>reservationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="reservationsDataSetForReservationSubSystem.xsc">
+      <DependentUpon>reservationsDataSetForReservationSubSystem.xsd</DependentUpon>
+    </None>
+    <None Include="reservationsDataSetForReservationSubSystem.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reservationsDataSetForReservationSubSystem.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reservationsDataSetForReservationSubSystem.xss">
+      <DependentUpon>reservationsDataSetForReservationSubSystem.xsd</DependentUpon>
+    </None>
+    <None Include="reservationSummaryInfo.xsc">
+      <DependentUpon>reservationSummaryInfo.xsd</DependentUpon>
+    </None>
+    <None Include="reservationSummaryInfo.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>reservationSummaryInfo.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="reservationSummaryInfo.xss">
+      <DependentUpon>reservationSummaryInfo.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\activity15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainbackground.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainbackground1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bike tour.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canal-tours-boat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\canal-tours-boat1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\open-garden-days.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\hallo.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\hoemaaktUhet.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\kuntUdatnogeens.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,57 @@
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\bin\Debug\BaseFormLibrary.dll
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\bin\Debug\BaseFormLibrary.pdb
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\bin\Debug\BaseFormLibrary.xml
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\obj\Debug\BaseFormLibrary.Resources.resources
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\obj\Debug\BaseFormLibrary.vbproj.GenerateResource.Cache
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\obj\Debug\BaseFormLibrary.dll
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\obj\Debug\BaseFormLibrary.xml
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\obj\Debug\BaseFormLibrary.pdb
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\obj\Debug\BaseFormLibrary.MainT.resources
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\BaseFormLibrary\obj\Debug\BaseFormLibrary.frmPopupT.resources
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\bin\Debug\BaseFormLibrary.dll
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\bin\Debug\BaseFormLibrary.pdb
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\bin\Debug\BaseFormLibrary.xml
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\obj\Debug\ResolveAssemblyReference.cache
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\obj\Debug\BaseFormLibrary.frmPopupT.resources
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\obj\Debug\BaseFormLibrary.MainT.resources
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\obj\Debug\BaseFormLibrary.Resources.resources
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\obj\Debug\BaseFormLibrary.vbproj.GenerateResource.Cache
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\obj\Debug\BaseFormLibrary.dll
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\obj\Debug\BaseFormLibrary.xml
+G:\Class Data\Spring 2010\BCIS4650\Project\MS2\BaseFormLibrary\obj\Debug\BaseFormLibrary.pdb
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\bin\Debug\BaseFormLibrary.dll
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\bin\Debug\BaseFormLibrary.pdb
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\bin\Debug\BaseFormLibrary.xml
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\obj\Debug\BaseFormLibrary.frmPopupT.resources
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\obj\Debug\BaseFormLibrary.MainT.resources
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\obj\Debug\BaseFormLibrary.Resources.resources
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\obj\Debug\BaseFormLibrary.vbproj.GenerateResource.Cache
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\obj\Debug\BaseFormLibrary.dll
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\obj\Debug\BaseFormLibrary.xml
+C:\Storage\Current\Class Data BACKUP (do work out of USB stick)\Spring 2010\BCIS4650\Project\MS3\BaseFormLibrary\obj\Debug\BaseFormLibrary.pdb
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\bin\Debug\BaseFormLibrary.dll
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\bin\Debug\BaseFormLibrary.pdb
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\bin\Debug\BaseFormLibrary.xml
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\ResolveAssemblyReference.cache
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\BaseFormLibrary.frmPopupT.resources
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\BaseFormLibrary.MainT.resources
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\BaseFormLibrary.Resources.resources
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\BaseFormLibrary.vbproj.GenerateResource.Cache
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\BaseFormLibrary.dll
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\BaseFormLibrary.xml
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\BaseFormLibrary.pdb
+C:\Storage\Current\Class Data BACKUP (do work on USB stick)\Spring 2010\BCIS4650\Project\MS4\BaseFormLibrary\obj\Debug\BaseFormLibrary.frmHelp.resources
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\bin\Debug\BaseFormLibrary.dll
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\bin\Debug\BaseFormLibrary.pdb
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\bin\Debug\BaseFormLibrary.xml
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\ResolveAssemblyReference.cache
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\BaseFormLibrary.frmHelp.resources
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\BaseFormLibrary.frmPopupT.resources
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\BaseFormLibrary.MainT.resources
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\BaseFormLibrary.Resources.resources
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\BaseFormLibrary.vbproj.GenerateResource.Cache
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\BaseFormLibrary.dll
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\BaseFormLibrary.xml
+F:\Storage\Projects\RestoredSchoolWork\VB.NET\Amsterdam\BaseFormLibrary\obj\Debug\BaseFormLibrary.pdb

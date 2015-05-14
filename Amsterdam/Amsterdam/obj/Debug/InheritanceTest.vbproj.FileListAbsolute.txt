@@ -1,0 +1,12 @@
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\bin\Debug\InheritanceTest.exe
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\bin\Debug\InheritanceTest.pdb
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\bin\Debug\InheritanceTest.xml
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\bin\Debug\BaseFormLibrary.dll
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\bin\Debug\BaseFormLibrary.pdb
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\bin\Debug\BaseFormLibrary.xml
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\obj\Debug\ResolveAssemblyReference.cache
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\obj\Debug\InheritanceTest.Resources.resources
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\obj\Debug\InheritanceTest.vbproj.GenerateResource.Cache
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\obj\Debug\InheritanceTest.exe
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\obj\Debug\InheritanceTest.xml
+G:\Class Data\Spring 2010\BCIS4650\Project\MS1\InheritanceTest\obj\Debug\InheritanceTest.pdb

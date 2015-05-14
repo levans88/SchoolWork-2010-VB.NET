@@ -1,0 +1,576 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Amsterdam
+</name>
+</assembly>
+<members>
+<member name="T:Amsterdam.CustomersDataSetForCount.customersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.CustomersDataSetForCount.customersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.CustomersDataSetForCount.customersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.CustomersDataSetForCount">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.CustomersDataSetForCountTableAdapters.customersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.CustomersDataSetForCountTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.CustomersDataSetForCount,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.CustomersDataSetForCountTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.CustomersDataSetForCount,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.CustomersDataSetForCountTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.CustomersDataSetForCount,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.CustomersDataSetForCountTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.CustomersDataSetForCountTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.CustomersDataSetForCount)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.CustomersDataSetForCountTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.CustomersDataSetForCountTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.CustomersDataSetForCountTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfo.activitiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfo.reservation_activitiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfo.activitiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfo.reservation_activitiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfo.activitiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfo.reservation_activitiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfoTableAdapters.activitiesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfoTableAdapters.reservation_activitiesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.ActivitiesSummaryInfoTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.ActivitiesSummaryInfo,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.ActivitiesSummaryInfoTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.ActivitiesSummaryInfo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.ActivitiesSummaryInfoTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.ActivitiesSummaryInfo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.ActivitiesSummaryInfoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.ActivitiesSummaryInfoTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.ActivitiesSummaryInfo)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfoTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.ActivitiesSummaryInfoTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amsterdam.reservationDataSet.reservationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.reservationDataSet.reservationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.reservationDataSet.reservationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.reservationDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.reservationDataSetTableAdapters.reservationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.reservationDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.reservationDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.reservationDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.reservationDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.reservationDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.reservationDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.reservationDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.reservationDataSetTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.reservationDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.reservationDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.reservationDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.reservationDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Amsterdam.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Amsterdam.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Amsterdam.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Amsterdam.customersDataSet.customersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.customersDataSet.customersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.customersDataSet.customersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.customersDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.customersDataSetTableAdapters.customersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.customersDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.customersDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.customersDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.customersDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.customersDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.customersDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.customersDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.customersDataSetTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.customersDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.customersDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.customersDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.customersDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amsterdam.reservationActivitiesTableDataSet.reservation_activitiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.reservationActivitiesTableDataSet.reservation_activitiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.reservationActivitiesTableDataSet.reservation_activitiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.reservationActivitiesTableDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.reservationActivitiesTableDataSetTableAdapters.reservation_activitiesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.reservationActivitiesTableDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.reservationActivitiesTableDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.reservationActivitiesTableDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.reservationActivitiesTableDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.reservationActivitiesTableDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.reservationActivitiesTableDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.reservationActivitiesTableDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.reservationActivitiesTableDataSetTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.reservationActivitiesTableDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.reservationActivitiesTableDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.reservationActivitiesTableDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.reservationActivitiesTableDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amsterdam.CustomerSummaryInfo.customersDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.CustomerSummaryInfo.customersRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.CustomerSummaryInfo.customersRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.CustomerSummaryInfo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.CustomerSummaryInfoTableAdapters.customersTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.CustomerSummaryInfoTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.CustomerSummaryInfo,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.CustomerSummaryInfoTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.CustomerSummaryInfo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.CustomerSummaryInfoTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.CustomerSummaryInfo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.CustomerSummaryInfoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.CustomerSummaryInfoTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.CustomerSummaryInfo)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.CustomerSummaryInfoTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.CustomerSummaryInfoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.CustomerSummaryInfoTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amsterdam.gridDataSet.activitiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.gridDataSet.reservation_activitiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.gridDataSet.activitiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.gridDataSet.reservation_activitiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.gridDataSet.activitiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.gridDataSet.reservation_activitiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.gridDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.gridDataSetTableAdapters.activitiesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Amsterdam.gridDataSetTableAdapters.reservation_activitiesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.gridDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.gridDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.gridDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.gridDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.gridDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.gridDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.gridDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.gridDataSetTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.gridDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.gridDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.gridDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.gridDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amsterdam.reservationsDataSetForReservationSubSystem.reservationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.reservationsDataSetForReservationSubSystem.reservationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.reservationsDataSetForReservationSubSystem.reservationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.reservationsDataSetForReservationSubSystem">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.reservationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.reservationsDataSetForReservationSubSystem,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.reservationsDataSetForReservationSubSystem,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.reservationsDataSetForReservationSubSystem,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.reservationsDataSetForReservationSubSystem)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.reservationsDataSetForReservationSubSystemTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amsterdam.reservationSummaryInfo.reservationsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.reservationSummaryInfo.reservationsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.reservationSummaryInfo.reservationsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.reservationSummaryInfo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.reservationSummaryInfoTableAdapters.reservationsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.reservationSummaryInfoTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.reservationSummaryInfo,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.reservationSummaryInfoTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.reservationSummaryInfo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.reservationSummaryInfoTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.reservationSummaryInfo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.reservationSummaryInfoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.reservationSummaryInfoTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.reservationSummaryInfo)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.reservationSummaryInfoTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.reservationSummaryInfoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.reservationSummaryInfoTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Amsterdam.amsterdamDataSet.activitiesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Amsterdam.amsterdamDataSet.activitiesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Amsterdam.amsterdamDataSet.activitiesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Amsterdam.amsterdamDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Amsterdam.amsterdamDataSetTableAdapters.activitiesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Amsterdam.amsterdamDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Amsterdam.amsterdamDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.amsterdamDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Amsterdam.amsterdamDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Amsterdam.amsterdamDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Amsterdam.amsterdamDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Amsterdam.amsterdamDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Amsterdam.amsterdamDataSetTableAdapters.TableAdapterManager.UpdateAll(Amsterdam.amsterdamDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Amsterdam.amsterdamDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Amsterdam.amsterdamDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Amsterdam.amsterdamDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

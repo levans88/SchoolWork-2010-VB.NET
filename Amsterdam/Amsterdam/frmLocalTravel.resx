@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RichTextBox1.Text" xml:space="preserve">
+    <value>Amsterdam - Transport
+
+
+Public Transport
+The best way to get around Amsterdam is either on foot, by bike (see below) or by using the extensive tram, metro, bus and ferry networks, all run by GVB (tel: 0900 899 8585; www.gvb.nl), which has an information office at Centraal Station.
+
+Trams are a great way of getting around, with routes heading out from the centre in all directions. Amsterdam's four metro lines serve the southeastern business district and the suburbs. The outlying areas of the city are served by more than 30 bus lines.
+
+Not surprisingly, there are several modes of water travel in Amsterdam. A free ferry service, departing from De Ruijterkade (behind Centraal Station), travels to Amsterdam Noord, the area across the IJ.
+
+Canal buses travel between Centraal Station and the Rijksmuseum. Canal taxis, which can carry up to 40 passengers, are also available. They can either be hailed from the canal side or ordered from Water Taxis (tel: (020) 535 6363; www.water-taxi.nl). Alternatively, visitors can hire pedalos (also known as canal bikes) and boats to explore the canals - available from Canal Bike, Weteringschans 24 (tel: (020) 626 5574; www.canal.nl). A deposit is required.
+
+Most tram and bus journeys are paid for using a Strippenkaarten, (available from stations and newspaper kiosks). One-to-four-day ‘Amsterdam All in 1' tickets are also available but can only be bought at the airport. Check www.gvb.nl for more passes and travel information.
+
+
+Taxis
+
+Rather than hailing a taxi in the street, it is more common in Amsterdam to either order a taxi by phoning the Central Taxi Office (tel: (020) 677 7777) or pick one up at a taxi rank, which are located at Centraal Station, Rembrandtplein and Leidseplein. Although they provide a good service, taxis are relatively expensive. A new system allows taxi drivers to set meters at different rates, so keep a keen eye on the rate in play.
+
+
+Driving in the City
+
+Driving in Amsterdam is not recommended. Parking spots are limited and expensive. Visitors are advised to park their car at a P+R (park and ride) lot, from where there are bus, tram and subway lines into the city centre. Motorists also need to watch out for cyclists and the special cycle lanes.
+
+In the city centre, parking meters can be recognised by a blue sign with the letter ‘P' and charges are split into three zones. City centre parking spaces can be reserved online (www.parkeerlijn.nl/amsterdam). Parking regulations are quite strict and there are tough measures for violating the city's car-parking laws, with wheel clamping common.
+
+
+Car Hire
+
+Conditions vary but in most cases, the driver will have to be at least 21 and have held a valid national licence for one year. An International Driving Permit (IDP) is not needed, as long as a valid national licence is produced. Those hiring a car should always check that the rates include the minimum insurance cover required in Amsterdam. Car hire companies with branches in the city centre include Avis (tel: (020) 683 6061; www.avis.com), Hertz (tel: (020) 612 2441; www.hertz.com) and Sixt (tel: (020) 624 2955; www.sixt.com).
+
+
+Bicycle Hire
+
+The easiest way to get around Amsterdam is by bike. Bicycles can be hired from Bike City, Bloemgracht 68-70 (tel: (020) 626 3721; www.bikecity.nl), Damstraat Rent-A-Bike, Damstraat 20-22 (tel: (020) 625 5029; www.rentabike.nl) or Macbike, Nieuwe Ulenburgerstraat 116 (tel: (020) 620 985; www.macbike.nl). A deposit or a credit card imprint is usually required, along with an additional form of identification.
+
+Cycling two abreast is illegal, as is a bicycle without reflector bands on both front and back wheels. Bikes should always be securely locked with two locks (one connecting the front wheel to a lamppost or railing and one securing the frame to something similarly as solid) as there is a thriving stolen bike market in the city.</value>
+  </data>
+</root>
